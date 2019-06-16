@@ -31,5 +31,10 @@ h1 {
   text-align: center;
 }
 
+h2.heading--star {
+  color: magenta;
+}
 
-
+h2.heading--rating {
+  color: indigo;
+}
