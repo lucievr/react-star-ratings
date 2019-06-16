@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Star from "./Star";
+import Rating from "./Rating";
 
 import "./index.css";
 import * as serviceWorker from "./serviceWorker";
@@ -13,6 +14,7 @@ function App() {
       <Star color="magenta" />
       <Star color="indigo" isFilled />
       <h2 className="heading--rating">Rating Component (uses Stars):</h2>
+      <Rating stars={4} />
     </div>
   );
 }
