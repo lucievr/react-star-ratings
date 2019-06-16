@@ -1,8 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+
+
+function App() {
+    return (
+        <div className="App">
+        <h2>Star Components:</h2>
+
+
+        <h2>Rating Component (uses Stars):</h2>
+        </div>
+    );
+}
+
+
+
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
